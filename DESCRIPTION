@@ -1,0 +1,16 @@
+Package: JTmisc
+Title: JT's miscellaneous functions
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "James",
+           family = "Totterdell",
+           role = c("aut", "cre"),
+           email = "jatotterdell@gmail.com")
+Description: Implements some miscellaneous functions I occasionally find useful.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+RdMacros: mathjaxr
+Suggests: mathjaxr
