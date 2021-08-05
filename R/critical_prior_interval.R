@@ -15,6 +15,8 @@
 #' principles and practice of the Analysis of Credibility.
 #' *R.Soc.opensci.* **5**: 171047.http://dx.doi.org/10.1098/rsos.171047
 #'
+#' @importFrom stats qnorm
+#'
 #' @param L The lower CI limit
 #' @param U The upper CI limit
 #' @param alpha The size which determines the target coverage of the confidence interval

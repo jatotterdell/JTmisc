@@ -1,5 +1,5 @@
 Package: JTmisc
-Title: JT's miscellaneous functions
+Title: JT's Miscellaneous Functions
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "James",
@@ -13,6 +13,7 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 RdMacros: mathjaxr
-Suggests: mathjaxr
 URL: https://github.com/jatotterdell/JTmisc
 BugReports: https://github.com/jatotterdell/JTmisc/issues
+Imports: 
+    mathjaxr

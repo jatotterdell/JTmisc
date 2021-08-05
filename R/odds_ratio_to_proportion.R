@@ -4,9 +4,12 @@
 #' \loadmathjax
 #' Uses the standard formula \mjeqn{p_2=ORp_1/(1 - p_1 + ORp_1)}{}.
 #'
+#' @import mathjaxr
+#'
 #' @param p The baseline proportion
 #' @param OR The odds ratio
 #' @return The proportion which results in an odds ratio of OR compared to p
+#' @export
 #' @examples
 #' odds_ratio_to_p(0.5, 2)
 #' odds_ratio_to_p(0.5, 1/2)
