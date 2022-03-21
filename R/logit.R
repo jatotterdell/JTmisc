@@ -7,6 +7,7 @@
 #'
 #' @param x The value to transform
 #' @return expit(x)
+#' @export
 expit <- function(x) {
   1 / (1 + exp(-x))
 }
@@ -21,6 +22,7 @@ expit <- function(x) {
 #'
 #' @param x The value to transform
 #' @return logit(x)
+#' @export
 logit <- function(x) {
   log(x) - log(1 - x)
 }
@@ -33,6 +35,7 @@ logit <- function(x) {
 #'
 #' @param x The vector of cut-points
 #' @return cumulative_expit(x)
+#' @export
 cumulative_expit <- function(x) {
   K <- length(x) + 1
   out <- numeric(K)
@@ -54,6 +57,7 @@ cumulative_expit <- function(x) {
 #'
 #' @param x The vector of probabilities
 #' @return cumulative_logit(x)
+#' @export
 cumulative_logit <- function(x) {
   return(logit(cumsum(x))[seq_len(length(x) - 1)])
 }
